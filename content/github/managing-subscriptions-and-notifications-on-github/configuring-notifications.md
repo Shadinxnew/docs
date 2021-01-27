@@ -30,7 +30,7 @@ You can receive notifications for activity on {% data variables.product.product_
   - The notifications inbox in the {% data variables.product.product_name %} web interface{% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "2.22" %}
   - The notifications inbox on {% data variables.product.prodname_mobile %}, which syncs with the inbox on {% data variables.product.product_name %}{% endif %}
   - An email client that uses a verified email address, which can also sync with the notifications inbox on {% data variables.product.product_name %}{% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "2.22" %} and {% data variables.product.prodname_mobile %}{% endif %}
-
+ 
 {% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "2.22" %}
 {% data reusables.notifications-v2.notifications-inbox-required-setting %} For more information, see "[Choosing your notification settings](#choosing-your-notification-settings)."
 {% endif %}
